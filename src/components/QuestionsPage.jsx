@@ -15,7 +15,7 @@ export default function QuestionsPage(props) {
   //fetching API data and storing them as Quiz objects in state variable 'fiveQuestions'
   useEffect(() => {
     fetch(
-      "https://opentdb.com/api.php?amount=5&category=18&difficulty=easy&type=multiple"
+      "https://opentdb.com/api.php?amount=5&category=17&difficulty=hard&type=multiple"
     )
       .then((res) => res.json())
       .then((data) => {
